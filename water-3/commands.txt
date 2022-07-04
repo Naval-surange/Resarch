@@ -1,0 +1,20 @@
+Energy minimization
+
+    1) Generate water box of size 2.3 nm and puts it in conf.gro
+        gmx solvate -cs tip4p -o conf.gro -box 2.3 2.3 2.3 -p topol.top
+        https://manual.gromacs.org/current/onlinehelp/gmx-solvate.html
+
+    2) To combine files into .tpr binary file for gromacs
+        gmx grompp -f min.mdp -c water1.gro -p topol.top -o min2.tpr -pp min2.top -po min2.mdp
+        https://manual.gromacs.org/current/onlinehelp/gmx-grompp.html
+
+    3) to run simulation 
+        gmx mdrun -s min2.tpr -o min3.trr -c min3.gro -e min3.edr
+        https://manual.gromacs.org/current/onlinehelp/gmx-mdrun.html
+
+        # tpr generated from above command
+        # min.trr -> trajactory file 
+        # -e min.edr -> energy file
+
+
+

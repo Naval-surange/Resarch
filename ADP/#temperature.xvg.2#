@@ -1,0 +1,33 @@
+# This file was created Fri Jun 17 00:28:55 2022
+# Created by:
+#                      :-) GROMACS - gmx energy, 2019.6 (-:
+# 
+# Executable:   /home/naval/research/plumed/conda/envs/ISDD-tutorial-2021/bin/gmx
+# Data prefix:  /home/naval/research/plumed/conda/envs/ISDD-tutorial-2021
+# Working dir:  /home/naval/Research/ADP
+# Command line:
+#   gmx energy -f nvt.edr -o temperature.xvg
+# gmx energy is part of G R O M A C S:
+#
+# Great Red Oystrich Makes All Chemists Sane
+#
+
+    0.000000  300.888672
+    1.000000  309.116058
+    2.000000  163.338013
+    3.000000  335.000793
+    4.000000  158.738098
+    5.000000  329.185730
+    6.000000  162.243896
+    7.000000  325.236786
+    8.000000  159.337830
+    9.000000  334.099548
+   10.000000  154.466919
+   11.000000  336.136108
+   12.000000  155.300064
+   13.000000  333.804321
+   14.000000  155.222931
+   15.000000  336.815735
+   16.000000  150.492432
+   17.000000  340.938263
+   18.000000  149.430984

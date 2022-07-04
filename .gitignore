@@ -1,0 +1,24 @@
+LJ/traj.trr
+LJ/traj.trr
+ADP/#md_unbaised.xtc.1#
+ADP/nvt.trr
+ADP/md_unbaised.xtc
+ADP/md_biased.xtc
+ADP/md_biased_2.xtc
+ADP/#nvt.trr.1#
+ADP/bck.1.q6.xyz
+ADP/q6.xyz
+ADP/npt.trr
+ADP/#nvt.trr.2#
+ADP/bck.6.q6.xyz
+Lennard Jones/traj.trr
+LJ/#traj.trr.4#
+LJ/traj.trr
+LJ/aaa.xvg
+water/min.log
+water-2/nvt.trr
+water-2/npt.trr
+water-2/#npt.trr.1#
+
+gromacs
+plumed-2.7

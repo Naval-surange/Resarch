@@ -1,0 +1,21 @@
+# This file was created Thu Jun 23 01:27:04 2022
+# Created by:
+#                :-) GROMACS - gmx energy, 2021-plumed-2.7.4 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /home/naval/Research/water-2
+# Command line:
+#   gmx energy -f min.edr -o potential.xvg
+# gmx energy is part of G R O M A C S:
+#
+# GRoups of Organic Molecules in ACtion for Science
+#
+
+    0.000000  -92662.648438
+    1.000000  -117148.937500
+    2.000000  -135429.468750
+    3.000000  -148630.421875
+    4.000000  -159407.875000
+    5.000000  -169839.546875
+    6.000000  -180296.796875
