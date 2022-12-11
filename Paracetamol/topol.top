@@ -1,0 +1,15 @@
+; paracetamol_GMX.top created by acpype (v: 2020-11-11T22:59:34CET) on Thu Sep  1 23:52:05 2022
+
+[ defaults ]
+; nbfunc        comb-rule       gen-pairs       fudgeLJ fudgeQQ
+1               2               yes             0.5     0.8333
+
+; Include paracetamol_GMX.itp topology
+#include "paracetamol_GMX.itp"
+
+[ system ]
+ paracetamol
+
+[ molecules ]
+; Compound        nmols
+ paracetamol      1000     
